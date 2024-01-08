@@ -1,0 +1,11 @@
+{
+    "name": "Servicing",
+    "alias": "servicing",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Servicing\\app\\Providers\\ServicingServiceProvider"
+    ],
+    "files": []
+}

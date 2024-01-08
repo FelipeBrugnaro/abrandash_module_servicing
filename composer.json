@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/servicing",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Servicing\\": "",
+            "Modules\\Servicing\\App\\": "app/",
+            "Modules\\Servicing\\Database\\Factories\\": "database/factories/",
+            "Modules\\Servicing\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Servicing\\Tests\\": "tests/"
+        }
+    }
+}
